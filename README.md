@@ -10,11 +10,15 @@ Use this to install python package to RoboRio.
 
 Updating package call:
 
-python3 installer.py download-robotpy download-opkg python36-robotpy-ctre
+python3 installer.py download-robotpy
+
+python3 installer.py download-opkg python36-robotpy-ctre
 
 Install on RoboRio:
 
-python3 installer.py install-robotpy install-opkg python36-robotpy-ctre
+python3 installer.py install-robotpy
+
+python3 installer.py install-opkg python36-robotpy-ctre
 
 <h1>2. requirements.txt</h1>
 Install other required packages on to Raspberry Pi
